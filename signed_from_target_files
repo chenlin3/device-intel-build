@@ -56,6 +56,7 @@ while getopts "st:ed:r:o:k:" opt; do
             echo "-r <release-name>: deprecated. default: signed"
             echo "-o <output-dir>: Where to place output files. default: same directory as"
             echo "   input TFP"
+	    echo " test github"
             exit 1
             ;;
     esac
